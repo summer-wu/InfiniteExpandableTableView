@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Config.h"
+#import "InfiniteExpandableTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //打印运行目录
+    BLog(@"%@",NSHomeDirectory());
+    BLog(@"%@",[NSBundle mainBundle].bundlePath);
+    //查看当前plis信息
+    NSLocale *currentLocale = [NSLocale currentLocale];
+    NSLog(@"Country Code is %@", [currentLocale objectForKey:NSLocaleCountryCode]);
+    NSLog(@"Language Code is %@", [currentLocale objectForKey:NSLocaleLanguageCode]);
+    NSString * infoplistPath=[[NSBundle mainBundle].bundlePath stringByAppendingPathComponent:@"info.plist"];
+    NSDictionary * d=[NSDictionary dictionaryWithContentsOfFile:infoplistPath];
+    BLog(@"info.plist:%@",d);
+    
+    //1. 设置AppDelegate.window
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+
+    self.window.rootViewController=[InfiniteExpandableTableViewController new];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

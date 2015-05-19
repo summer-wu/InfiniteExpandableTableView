@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InfiniteExpandableTableView.h
 //  InfiniteExpandableTableView
 //
 //  Created by naodongjiaolian on 15/5/19.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APUtils.h"
+#import "JuneExpandableCell.h"
 
-@interface ViewController : UIViewController
 
+@interface InfiniteExpandableTableViewController : UITableViewController
 
 @end
-

@@ -1,0 +1,161 @@
+{
+    "status": 1,
+    "msg": "获取成功",
+    "data": [
+             {
+             "id": "0",
+             "name": "0",
+             "sportTypes": []
+             },
+             {
+             "id": "1",
+             "name": "1",
+             "sportTypes": [
+                            {
+                            "id": "11",
+                            "name": "1.1",
+                            "sportTypes": [
+                                           {
+                                           "id": "12",
+                                           "name": "1.2",
+                                           "sportTypes": [
+                                                          {
+                                                          "id": "1",
+                                                          "name": "1",
+                                                          "sportTypes": [
+                                                                         {
+                                                                         "id": "11",
+                                                                         "name": "1.1",
+                                                                         "sportTypes": [
+                                                                                        {
+                                                                                        "id": "12",
+                                                                                        "name": "1.2",
+                                                                                        "sportTypes": []
+                                                                                        },
+                                                                                        {
+                                                                                        "id": "13",
+                                                                                        "name": "1.3",
+                                                                                        "sportTypes": []
+                                                                                        }
+                                                                                        ]
+                                                                         }
+                                                                         ]
+                                                          }
+                                                          ]
+                                           },
+                                           {
+                                           "id": "13",
+                                           "name": "1.3",
+                                           "sportTypes": [
+                                                          {
+                                                          "id": "1",
+                                                          "name": "1",
+                                                          "sportTypes": [
+                                                                         {
+                                                                         "id": "11",
+                                                                         "name": "1.1",
+                                                                         "sportTypes": [
+                                                                                        {
+                                                                                        "id": "12",
+                                                                                        "name": "1.2",
+                                                                                        "sportTypes": []
+                                                                                        },
+                                                                                        {
+                                                                                        "id": "13",
+                                                                                        "name": "1.3",
+                                                                                        "sportTypes": []
+                                                                                        }
+                                                                                        ]
+                                                                         }
+                                                                         ]
+                                                          }
+                                                          ]
+                                           }
+                                           ]
+                            }
+                            ]
+             },
+             {
+             "id": "2",
+             "name": "2",
+             "sportTypes": [
+                            {
+                            "id": "12",
+                            "name": "1.2",
+                            "sportTypes": [
+                                           {
+                                           "id": "1",
+                                           "name": "1",
+                                           "sportTypes": [
+                                                          {
+                                                          "id": "11",
+                                                          "name": "1.1",
+                                                          "sportTypes": [
+                                                                         {
+                                                                         "id": "12",
+                                                                         "name": "1.2",
+                                                                         "sportTypes": []
+                                                                         },
+                                                                         {
+                                                                         "id": "13",
+                                                                         "name": "1.3",
+                                                                         "sportTypes": []
+                                                                         }
+                                                                         ]
+                                                          }
+                                                          ]
+                                           }
+                                           ]
+                            },
+                            {
+                            "id": "13",
+                            "name": "1.3",
+                            "sportTypes": [
+                                           {
+                                           "id": "1",
+                                           "name": "1",
+                                           "sportTypes": [
+                                                          {
+                                                          "id": "11",
+                                                          "name": "1.1",
+                                                          "sportTypes": [
+                                                                         {
+                                                                         "id": "12",
+                                                                         "name": "1.2",
+                                                                         "sportTypes": []
+                                                                         },
+                                                                         {
+                                                                         "id": "13",
+                                                                         "name": "1.3",
+                                                                         "sportTypes": []
+                                                                         }
+                                                                         ]
+                                                          }
+                                                          ]
+                                           }
+                                           ]
+                            }
+                            ]
+             },
+             {
+             "id": "3",
+             "name": "3",
+             "sportTypes": []
+             },
+             {
+             "id": "4",
+             "name": "4",
+             "sportTypes": []
+             },
+             {
+             "id": "5",
+             "name": "6",
+             "sportTypes": []
+             },
+             {
+             "id": "6",
+             "name": "6",
+             "sportTypes": []
+             }
+             ]
+}
